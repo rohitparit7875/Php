@@ -1,0 +1,9 @@
+PHP – Use Cases
+PHP is mainly used for server-side web development. Common use cases include:
+Dynamic Websites – Create pages that change based on user input
+Form Handling – Process login, registration, contact forms
+Database Operations – Insert, update, delete, fetch data (MySQL, etc.)
+Authentication Systems – Login, signup, password management
+Content Management Systems – Blogs, news sites (WordPress)
+E-commerce Websites – Product listing, cart, orders, payments
+REST APIs – Backend services for web & mobile apps
