@@ -1,0 +1,28 @@
+Small PHP Project – User Login System (Basic)
+Project Idea: Simple Login Form with username & password validation.
+Features:
+User login using form
+PHP validation
+Displays success or error message
+<?php
+$correct_user = "admin";
+$correct_pass = "12345";
+
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    $user = $_POST["username"];
+    $pass = $_POST["password"];
+
+    if ($user == $correct_user && $pass == $correct_pass) {
+        echo "Login Successful!";
+    } else {
+        echo "Invalid Username or Password";
+    }
+}
+?>
+
+<form method="post">
+    Username: <input type="text" name="username" required><br><br>
+    Password: <input type="password" name="password" required><br><br>
+    <button type="submit">Login</button>
+</form>
+
